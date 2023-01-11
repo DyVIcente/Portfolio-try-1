@@ -1,0 +1,17 @@
+.pf__section {
+    display: flex;
+    color: white;
+    justify-content: space-between;
+    align-items: center;
+    padding: 4rem 8rem;
+}
+
+.pf__section-left_text p {
+    padding: 2rem 0 2rem 0;
+    max-width: 50%;
+}
+
+.trait {
+    padding: 4rem 8rem;
+}
+

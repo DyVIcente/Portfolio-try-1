@@ -1,0 +1,21 @@
+.pf__footer-container {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    width: 100%;
+}
+
+.pf__footer-container_content {
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+}
+
+.pf__footer-icons {
+    display: flex;
+    align-items: flex-end;
+    gap: 40%;
+    &:hover {
+        color: aqua;
+    }
+}

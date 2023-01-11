@@ -1,0 +1,17 @@
+.pf__chrono-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 0 4rem 2rem;
+}
+
+.pf__title3 {
+    color: var(--color-text);
+    font-family: var(--font-family);
+}
+.pf__paragraph2 {
+    color: var(--color-text);
+}
+.pf__chrono-container-content {
+    padding: 0 2rem 2rem;
+}

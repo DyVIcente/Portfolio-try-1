@@ -7,23 +7,27 @@ const Card = ({}) => {
     <section className="pf__card-container">
       {PROJETS.map((projet, index) => (
         <div className="container" key={projet.id}>
-          <div className="card">
-            <figure className="card__thumb">
-              <img
-                src={projet.image}
-                alt={projet.alt}
-                className="card__image"
-              />
-              <figcaption className="card__caption">
-                <h2 className="card__title">{projet.title}</h2>
-                <img src={projet.logo} alt="" />
+          <div className="image-container">
+            <img src={projet.image} alt={projet.alt} className="image-img" />
+          </div>
+          <div className="card-content">
+            <div>
+              <h2 className="pf__title2">{projet.title}</h2>
+            </div>
+            <div className="card-body">
+              <p className="pf__paragraph">{projet.snippet}</p>
+            </div>
+          </div>
 
-                <p className="card__snippet">{projet.snippet}</p>
-                <a href="" className="card__button">
-                  {projet.button}
-                </a>
-              </figcaption>
-            </figure>
+          <div className="card-logo">
+            <img src={projet.logo} alt="logo_projet" />
+          </div>
+          <div className="btn">
+            <button>
+              <a href="" className="pf__paragraph">
+                {projet.button}
+              </a>
+            </button>
           </div>
         </div>
       ))}

@@ -14,7 +14,7 @@ export const PROJETS = [
     image: Kasa,
     alt: 'Kasa_img',
     snippet: 'kasa est un site de location de bien imobilier etc etc etc etc',
-    button: 'Code & plus',
+    button: 'Code & Plus',
   },
 
   {
@@ -25,7 +25,7 @@ export const PROJETS = [
     alt: 'Piquante_img',
     snippet:
       'Piiquante est une site d`upload de sauce piquante et de partage etc etc etc etc',
-    button: 'En savoir plus',
+    button: 'Code & Plus',
   },
 
   {
@@ -36,7 +36,7 @@ export const PROJETS = [
     alt: 'kanap_img',
     snippet:
       'kanap est une site d`upload de sauce piquante et de partage etc etc etc etc',
-    button: 'En savoir plus',
+    button: 'Code & Plus',
   },
 
   {
@@ -47,7 +47,7 @@ export const PROJETS = [
     alt: 'ohmyfood_img',
     snippet:
       'ohmyfood est une site d`upload de sauce piquante et de partage etc etc etc etc',
-    button: 'En savoir plus',
+    button: 'Code & Plus',
   },
 
   {
@@ -58,7 +58,7 @@ export const PROJETS = [
     alt: 'gericht_img',
     snippet:
       'gericht est une site d`upload de sauce piquante et de partage etc etc etc etc',
-    button: 'En savoir plus',
+    button: 'Code & Plus',
   },
 
   {
@@ -69,6 +69,6 @@ export const PROJETS = [
     alt: 'gpt3_img',
     snippet:
       'gpt3 est une site d`upload de sauce piquante et de partage etc etc etc etc',
-    button: 'En savoir plus',
+    button: 'Code & Plus',
   },
 ]

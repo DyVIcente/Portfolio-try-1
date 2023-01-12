@@ -1,6 +1,6 @@
 import React from 'react'
 import './projects.scss'
-import Card from '../Card/Card'
+import ProjetCard from '../Card/Card'
 
 const Projects = () => {
   return (
@@ -10,13 +10,15 @@ const Projects = () => {
           <h1 className="pf__title">Projets :</h1>
         </div>
         <div>
-          <Card />
+          <ProjetCard />
         </div>
       </div>
       <div
         className="trait"
         style={{ margin: '2rem 0 0 8rem', width: '13rem' }}
       ></div>
+      <div className="hero__gradient"></div>
+      <div className="hero__gradient2"></div>
     </section>
   )
 }

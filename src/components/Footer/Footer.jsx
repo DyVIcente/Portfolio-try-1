@@ -9,12 +9,12 @@ const Footer = () => {
       <div className="pf__footer-container">
         <div className="pf__footer-container_content">
           <div className="pf__footer-container_content-mail">
-            <h5 className="pf__title2">
+            <div className="pf__footer-container_content-icon">
               <MdEmail size="1.5rem" style={{ alignText: 'center' }} />
-              E-mail:
-            </h5>
+              <h5 className="pf__title2">E-mail:</h5>
+            </div>
             <a className="pf__paragraph2" href="mailto:dyl.vicetne@gmail.com">
-              dyl.vicetne@gmail.com
+              dyl.vicente@gmail.com
             </a>
           </div>
           <div>

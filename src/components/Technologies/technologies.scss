@@ -4,15 +4,17 @@
     flex-wrap: wrap;
     justify-content: space-around;
     margin-top: 2rem; 
+    margin: 0 7rem 0;
+    gap: 1rem;
 }
 
 .wrapper__content {
     padding: 1rem;
     border: 1px solid var(--color-text);
-    border-radius: 5%;
+    border-radius: 5px;
     min-width: 140px;
     &:hover {
-        background: radial-gradient(590px at 8.2% 13.8%, rgb(18, 35, 60) 0%, rgb(187, 187, 187) 90%);
+        background: radial-gradient(590px at 8.2% 13.8%, rgb(18, 35, 60) 0%, rgba(187, 187, 187, 0.316) 90%);
     }
 }
 
@@ -34,4 +36,32 @@
 .pf__technologies-content p {
     padding: 0 0 2rem 8rem;
     max-width: 50%;
+}
+
+.wrapper__icons2 {
+    padding: 4rem 7rem 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.hero__gradient3 {
+    position: absolute;
+    z-index: 0;
+    width: 60%;
+    height: 60%;
+    right: -50%;
+    border-radius: 50%;
+    bottom: 40;
+    background: linear-gradient(180deg, rgba(188, 165, 255, 0) 0%, #214d76 100%);
+    filter: blur(123px)
+}
+
+.tech__icons {
+    color: white;
+    font-size: 4rem;
+    &:hover {
+        color: #214d76;
+    }
 }

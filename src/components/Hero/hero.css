@@ -27,3 +27,26 @@
     height: 27rem;
 }
 
+.hero__gradient {
+    position: absolute;
+    z-index: 3;
+    left: -40rem;
+    top: 25rem;
+    width: 50%;
+    height: 50%;
+    border-radius: 50%;
+    background: rgba(255, 255, 255, 0.6);
+    filter: blur(750px);
+}
+
+.hero__gradient2 {
+    position: absolute;
+    z-index: 0;
+    width: 50%;
+    height: 50%;
+    left: -40rem;
+    bottom: 0;
+    border-radius: 50%;
+    background: linear-gradient(90deg, #f4c4f3 0%, #fc67fa 100%);
+    filter: blur(900px);
+}

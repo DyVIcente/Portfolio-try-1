@@ -10,19 +10,25 @@ const Chrono = () => {
           <h3 className="pf__title3">
             2021 <AiOutlineLine />
           </h3>
-          <p className="pf__paragraph2">Oupsi douspi lemon squeezi and biche</p>
+          <p className="pf__paragraph2">
+            Première formation en Dev, apprentissage des bases
+          </p>
         </div>
         <div className="pf__chrono-container-content">
           <h3 className="pf__title3">
             2022 <AiOutlineLine />
           </h3>
-          <p className="pf__paragraph2">Oupsi douspi lemon squeezi and biche</p>
+          <p className="pf__paragraph2">
+            Formation développeur Web avec Openclassrooms RNCP 5
+          </p>
         </div>
         <div className="pf__chrono-container-content">
           <h3 className="pf__title3">
             2023 <AiOutlineLine />
           </h3>
-          <p className="pf__paragraph2">Oupsi douspi lemon squeezi and biche</p>
+          <p className="pf__paragraph2">
+            Recherche d'alterance pour continuer vers un BAC+4/5
+          </p>
         </div>
       </div>
     </section>

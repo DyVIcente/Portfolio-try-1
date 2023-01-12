@@ -26,3 +26,15 @@
 #foot {
     padding: 0 ;
 }
+
+.pf__footer-container_content-icon {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 0.5rem;
+    padding-bottom: 1rem;
+}
+
+.pf__footer-container_content-icon h5 {
+    font-size:large;
+}

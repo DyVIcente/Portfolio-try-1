@@ -1,14 +1,18 @@
 import React from 'react'
 import './footer.scss'
 import { AiFillGithub, AiFillLinkedin } from 'react-icons/ai'
+import { MdEmail } from 'react-icons/md'
 
 const Footer = () => {
   return (
-    <footer className="pf__section">
+    <footer className="pf__section" id="foot">
       <div className="pf__footer-container">
         <div className="pf__footer-container_content">
           <div className="pf__footer-container_content-mail">
-            <h5 className="pf__title2">E-mail:</h5>
+            <h5 className="pf__title2">
+              <MdEmail size="1.5rem" style={{ alignText: 'center' }} />
+              E-mail:
+            </h5>
             <a className="pf__paragraph2" href="mailto:dyl.vicetne@gmail.com">
               dyl.vicetne@gmail.com
             </a>

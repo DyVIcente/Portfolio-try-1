@@ -11,7 +11,19 @@
     max-width: 50%;
 }
 
-.trait {
-    padding: 4rem 8rem;
+#home {
+    width: 100vw;
+}
+
+.pf__section-right-image {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pf__section-right-image img {
+    width: 27rem;
+    height: 27rem;
 }
 

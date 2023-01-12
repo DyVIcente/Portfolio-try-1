@@ -3,6 +3,9 @@
     justify-content: space-between;
     flex-direction: row;
     width: 100%;
+    background-color: var(--color-footer);
+    padding: 2rem 8rem 1rem ;
+
 }
 
 .pf__footer-container_content {
@@ -18,4 +21,8 @@
     &:hover {
         color: aqua;
     }
+}
+
+#foot {
+    padding: 0 ;
 }

@@ -13,6 +13,10 @@ const Projects = () => {
           <Card />
         </div>
       </div>
+      <div
+        className="trait"
+        style={{ margin: '2rem 0 0 8rem', width: '13rem' }}
+      ></div>
     </section>
   )
 }

@@ -25,12 +25,14 @@ $desktop: 1024px;
     
 }
 
+
 .card {
 	width: 500px;
 	margin: 10px;
 	background-color: white;
     border-radius: 10px;
 	box-shadow: 0 5px 10px 0 rgba(106, 105, 105, 0.5);
+	
 
 	&:hover {
 		.card__caption {
@@ -40,10 +42,12 @@ $desktop: 1024px;
 
 		.card__image {
 			transform: translateY(-10px);
+			
 		}
 
 		.card__thumb {
             border-radius: 10px;
+			
 			&::after {
 				top: 0;
                 border-radius: 10px;

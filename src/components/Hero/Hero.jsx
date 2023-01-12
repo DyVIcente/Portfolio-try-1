@@ -1,5 +1,6 @@
 import React from 'react'
 import './hero.css'
+import ai from '../../assets/ai.png'
 
 const Hero = () => {
   return (
@@ -22,8 +23,8 @@ const Hero = () => {
           <div className="trait"></div>
         </div>
       </div>
-      <div>
-        <p>image</p>
+      <div className="pf__section-right-image">
+        <img src={ai} alt="ai_image" />
       </div>
     </section>
   )
